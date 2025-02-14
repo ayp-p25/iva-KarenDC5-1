@@ -1,5 +1,5 @@
 """
-Se ingresa una cantidad sin iva y se regresa el total de la cantidad con iva
+Calcular IVA y total con IVA
 Karen Durán
 757136
 Ingeniería Civil
@@ -10,13 +10,13 @@ ESI232B2
 """
 
 # Declaraciones
-tasa_iva = 0.16
+TASA_IVA = 0.16
 
 # Entradas
-cantidad = float(input("Ingrese la cantidad sin IVA:"))
+cantidad = float(input("Cantidad: "))
 
 # Proceso
-iva = cantidad * tasa_iva
+iva = cantidad * TASA_IVA
 total = cantidad + iva
 
 # Salidas
