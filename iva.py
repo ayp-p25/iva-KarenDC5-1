@@ -17,7 +17,8 @@ cantidad = float(input("Cantidad: "))
 
 # Proceso
 iva = cantidad * TASA_IVA
-total = cantidad + iva
+total_con_iva = cantidad + iva
 
 # Salidas
-print("Total", total)
+print("IVA", iva)
+print("Total", total_con_iva)
